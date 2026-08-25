@@ -1,6 +1,13 @@
 # ===== Vivado 生成文件 =====
 TinyAWG_MK2.cache/
-TinyAWG_MK2.gen/
+TinyAWG_MK2.gen/*
+!TinyAWG_MK2.gen/sources_1/
+TinyAWG_MK2.gen/sources_1/*
+!TinyAWG_MK2.gen/sources_1/bd/
+TinyAWG_MK2.gen/sources_1/bd/*
+!TinyAWG_MK2.gen/sources_1/bd/design_1/
+TinyAWG_MK2.gen/sources_1/bd/design_1/*
+!TinyAWG_MK2.gen/sources_1/bd/design_1/hdl/
 TinyAWG_MK2.hw/
 TinyAWG_MK2.ip_user_files/
 TinyAWG_MK2.runs/
@@ -28,6 +35,7 @@ vitis/hello_world/src/.clangd
 *.o
 *.d
 *.dcp
+!TinyAWG_MK2.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
 *.tmp
 compile_commands.json
 vitis-comp.json

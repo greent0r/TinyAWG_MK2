@@ -139,7 +139,7 @@ uint32_t calculate_closure_points(double f_target)
         if (df < min_df) {
             min_df      = df;
             best_points = N;
-            if (df <= 0.1) break;           // 满足 0.1 Hz 精度立即退出
+            if (df <= 0.0001) break;           // 满足精度立即退出
         }
     }
     return best_points;
