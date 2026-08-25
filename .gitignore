@@ -1,0 +1,46 @@
+# ===== Vivado 生成文件 =====
+TinyAWG_MK2.cache/
+TinyAWG_MK2.gen/
+TinyAWG_MK2.hw/
+TinyAWG_MK2.ip_user_files/
+TinyAWG_MK2.runs/
+TinyAWG_MK2.sim/
+TinyAWG_MK2.tmp/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== Vitis 工作区 =====
+vitis/_ide/
+vitis/tools/
+vitis/.rigel_lopper/
+vitis/platform/
+vitis/hello_world/build/
+vitis/hello_world/_ide/
+vitis/hello_world/BOOT.bin
+vitis/hello_world/src/.cache/
+vitis/hello_world/src/.compile_commands/
+vitis/hello_world/src/.clangd
+
+# ===== 编译产物 =====
+*.elf
+*.o
+*.d
+*.dcp
+*.tmp
+compile_commands.json
+vitis-comp.json
+
+# ===== GUI Guider =====
+lvgl_gui/AWG/temp/
+lvgl_gui/AWG/lib/
+lvgl_gui/AWG/lvgl/
+lvgl_gui/AWG/lvgl-simulator/build/
+lvgl_gui/AWG/lvgl-simulator/SDL2/
+lvgl_gui/AWG/lvgl-simulator/multi_thread/
+lvgl_gui/AWG/lvgl-simulator/wels/
+lvgl_gui/AWG/import/font/*
+!lvgl_gui/AWG/import/font/ZiHunDaHei.ttf
+!lvgl_gui/AWG/import/font/montserratMedium.ttf
+!lvgl_gui/AWG/import/font/Licenses/
